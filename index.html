@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <title>UrbanHour</title>
+</head>
+
+<body>
+  <div class="bg-violet-200 mb-0 p-1">
+   <div class="flex ml-10 p-1">
+      <i style="margin-top: 4px;" class="fa-solid fa-truck mr-3"></i>
+      <p>Free Shipping And Free Return</p>
+      <div class="flex ml-210">
+         <p class="mr-14">+62 43256 7485</p>
+         <p>UrbanHour@gmail.com</p>
+      </div>
+   </div>
+</div>
+
+<header class="flex bg-slate-900 h-16 items-center px-20">
+   <h1 class="text-3xl text-white mr-20">UrbanHour</h1>
+
+   <div class="flex space-x-8 text-white items-center">
+      <a href="#" class="hover:text-rose-400 ml-135">Home</a>
+      <a href="#about" class="hover:text-rose-400">About Us</a>
+
+      <select 
+         class="bg-slate-900 text-white border border-white rounded px-2 py-1 hover:border-yellow-400 focus:outline-none"
+         onchange="if (this.value) window.location.href=this.value">
+         <option value="">Products</option>
+         <option value="men.html">Men</option>
+         <option value="women.html">Women</option>
+         <option value="kids.html">Kids</option>
+      </select>
+
+      <a href="#service" class="hover:text-rose-400">Services</a>
+      <a href="#testimon" class="hover:text-rose-400">Testimonials</a>
+      <a href="#contact" class="hover:text-rose-400">Contact Us</a>
+   </div>
+</header>
+
+<!-- Hero Section with Background Image -->
+<div class="w-full min-h-187 bg-cover bg-center" style="background-image: url('./bg6new.webp');">
+   <div class="flex text-lime-500 pt-25 ml-28">
+      <img src="./wristwatchnew.png" alt="" class="w-4 text-lime-400 mr-3">
+      <p class="text-sm text-lime-500">URBANHOUR-watches</p>
+   </div>
+   <div class="ml-28">
+      <h1 class="text-6xl text-white mt-4 font-semibold">Perfect Watches For</h1>
+      <h1 class="text-6xl text-white mt-2 font-semibold">Your Unique Style</h1>
+      <p class="mt-8 text-white">
+         UrbanHour – your destination for watches that blend contemporary style with timeless
+         craftsmanship,<br>
+         making every moment you wear them a statement of elegance.
+      </p>
+      <button class="bg-indigo-800 w-35 h-12 rounded-4xl text-white mt-6 hover:text-amber-600">Browse Women</button>
+      <button class="bg-indigo-800 w-35 h-12 rounded-4xl text-white mt-6 ml-5 hover:text-amber-600">Browse Men</button>
+      <p class="text-blue-800 mt-4">Take a quiz to find your watches ></p>
+   </div>
+</div>
+
+   
+   <div class="flex pl-25 bg-slate-900 w-full h-50 text-white">
+      <div class="mr-24 pt-7">
+         <img src="./bag2.png" alt="" width="25px">
+         <p class="pt-3">Shop online and collect in</p>
+         <p>one of our 1000 stores</p>
+      </div>
+      <div class="mr-24 ml-20 pt-7">
+         <img src="./adjust2.png" alt="" width="25px">
+         <p class="pt-3">Free fitting and adjustment</p>
+         <p>in offline stores</p>
+      </div>
+      <div class="mr-24 ml-20 pt-7">
+         <img src="./insure2.png" alt="" width="25px">
+         <p class="pt-3">We accept most insurance</p>
+         <p>plan,online and offline</p>
+      </div>
+      <div class="mr-24 ml-20 pt-7">
+         <img src="./ship2.png" alt="" width="25px">
+         <p class="pt-3">Free shipping and 30-day</p>
+         <p>returns,online and offline</p>
+      </div>
+
+   </div>
+
+   <div class="bg-red-50 text-white">
+      <h1>...................................................................</h1>
+   </div>
+
+   <div class="flex mt-9 ml-40">
+      <!-- Card -->
+      <div class="border-2 border-none w-100 h-140 bg-gradient-to-b from-sky-100 to-indigo-600">
+         <div>
+            <img src="./watch1-removebg-preview.png" alt="" width="430px" height="400px" class="pt-10">
+            <p class="ml-10 text-white text-xl">New Collection</p>
+            <p class="ml-10 text-white mt-4">Discover our new collection of UrbanHour watches</p>
+            <p class="ml-10 text-white">where timeless elegance meets modern design.</p>
+            <button class="bg-zinc-800 w-35 h-12 rounded-4xl text-white ml-10 mt-7">Shop Now</button>
+         </div>
+      </div>
+
+      <!-- Right side text -->
+      <div id="about" class="ml-30 mt-8">
+         <p class="flex text-rose-950">About Us
+            <img src="./watchabout.png" alt="" width="25px" height="25px" class="ml-3">
+         </p>
+         <p class="font-bold text-5xl mt-4">Our Commitment to</p>
+         <p class="font-bold text-5xl mt-2">Quality Watches</p>
+         <p class="mt-3">At UrbanHour, our commitment to quality ensures every watch</p>
+         <p>is crafted with precision, durability, and timeless style.</p>
+
+         <p class="font-bold mt-8"><i class="fa-brands fa-diaspora"></i>Fashion and Style</p>
+         <p class="mt-3">UrbanHour blends fashion and style, creating watches</p>
+         <p class="mt-1">that are as trendy as they are timeless.</p>
+
+         <p class="font-bold mt-8"><i class="fa-brands fa-diaspora"></i>Quality and Durability</p>
+         <p class="mt-3">Built with premium materials and expert craftsmanship, UrbanHour watches</p>
+         <p class="mt-1">are designed for unmatched quality and lasting durability.</p>
+      </div>
+   </div>
+   <div>
+      <p class="ml-40 mt-9">Over <a class="text-rose-950 font-bold" href="">92+</a>Watch brands</p>
+      <img class="ml-40" src="./bgremovedbrands.png" alt="" width="1200px" height="1200px">
+   </div>
+   <div class="bg-red-100 mt-20 w-full h-150">
+
+      <div id="service" class="flex pt-15">
+         <p class="ml-20 text-3xl text-extrabold">Our Services</p>
+         <p class="ml-260 text-blue-500"><u>See all Services ></u></p>
+      </div>
+      <div class="flex">
+         <div class="w-80 h-90 bg-red-50 ml-40 mt-14  rounded-xl">
+            <img class="ml-30 pt-10" src="./watchrepair.png" alt="" width="80px" height="80px">
+            <p class="mt-5 ml-22 text-xl">Watch Repairing</p>
+            <p class="mt-4 ml-3">Providing expert watch repair services with precision, care, and craftsmanship</p>
+            <p class="mt-4 ml-3">to ensure your timepiece runs flawlessly for years to come.</p>
+            <p class="ml-4 mt-1 text-blue-900"><u>Learn more ></u></p>
+         </div>
+         <div class="w-80 h-90 bg-red-50 ml-20 mt-14  rounded-xl">
+            <img class="ml-30 pt-10" src="./watchglass.png" alt="" width="80px" height="80px">
+            <p class="mt-5 ml-22 text-xl">Glass Changing</p>
+            <p class="mt-4 ml-3">Professional watch glass replacement with precision fitting and premium materials,
+               restoring</p>
+            <p class="mt-4 ml-3"> clarity and protecting your timepiece for years to come.</p>
+            <p class="ml-4 mt-1 text-blue-900"><u>Learn more ></u></p>
+         </div>
+         <div class="w-80 h-90 bg-red-50 ml-20 mt-14  rounded-xl">
+            <img class="ml-30 pt-10" src="./watchprotection.png" alt="" width="80px" height="80px">
+            <p class="mt-5 ml-22 text-xl">Watch Protection</p>
+            <p class="mt-4 ml-3">Comprehensive watch protection services to safeguard your timepiece from scratches,</p>
+            <p class="mt-4 ml-3">water damage, and daily wear, ensuring it stays flawless and functional.</p>
+            <p class="ml-4 mt-1 text-blue-900"><u>Learn more ></u></p>
+         </div>
+      </div>
+   </div>
+
+   <div>
+      <p id="testimon" class="flex text-rose-950 mt-20 ml-20">Why Choose Us
+         <img src="./watchabout.png" alt="" width="25px" height="25px" class="ml-3">
+      </p>
+      <p class="mt-7 text-4xl ml-20">Discover The Benefits of</p>
+      <p class="mt-3 text-4xl ml-20">Choosing Us</p>
+   </div>
+   <div class="flex mt-26">
+
+      <div class="w-100 ml-10">
+         <p>
+            <hr class="w-50 h-1">
+         </p>
+         <p>01</p>
+         <p class="text-xl">Unparalleled Selection</p>
+         <p class="mt-3">Discover an unparalleled selection of watches, where every style, function,</p>
+         <p>and detail is crafted to match your unique taste.</p>
+      </div>
+
+      <div class="w-100 mt-60">
+         <p>
+            <hr class="w-50 h-1">
+         </p>
+         <p>02</p>
+         <p class="text-xl">Premium Selection</p>
+         <p class="mt-3">Explore our premium selection of watches, handpicked for their exceptional craftsmanship,</p>
+         <p>timeless design, and unmatched elegance.</p>
+      </div>
+
+      <div class="w-100">
+         <p>
+            <hr class="w-50 h-1">
+         </p>
+         <p>03</p>
+         <p class="text-xl">Expert Guidance</p>
+         <p class="mt-3">Receive expert guidance from our watch specialists, helping you choose the</p>
+         <p>perfect timepiece with confidence and style.</p>
+      </div>
+
+      <div class="w-100 mt-60 mb-20">
+         <p>
+            <hr class="w-50 h-1">
+         </p>
+         <p>04</p>
+         <p class="text-xl">Personalized Service</p>
+         <p class="mt-3">Experience personalized service tailored to your unique taste,</p>
+         <p>ensuring every watch feels truly your own.</p>
+      </div>
+
+   </div>
+
+   <div>
+      <div class="max-w-6xl mx-auto mt-10 rounded-lg overflow-hidden flex">
+         <!-- Left Side -->
+         <div class="w-1/2 bg-blue-50 p-8 flex flex-col justify-center">
+            <p class="text-xs tracking-widest text-orange-800 font-semibold mb-2">PROMOTIONS</p>
+            <h2 class="text-2xl font-bold mb-4">
+               Limited-Time Offer – <br />
+               Enjoy Exclusive Discounts <br />
+               on Premium Watches!
+            </h2>
+            <p class="text-gray-500 mb-6">
+               Discover timeless elegance with our exclusive limited-time offer on premium watches – elevate your style
+               and make every moment count while this special deal lasts!
+            </p>
+            <button class="bg-blue-600 text-white py-2 px-6 rounded-4xl w-35 h-15 hover:bg-blue-700 transition">
+               Shop Now!
+            </button>
+         </div>
+
+         <!-- Right Side -->
+         <div class="w-1/2 bg-[#325867] flex flex-col items-center justify-center text-white p-6">
+            <div class="text-center mb-4">
+               <p class="text-lg font-semibold">10 %</p>
+               <p class="text-sm">INSTANT DISCOUNT ON</p>
+            </div>
+            <img src="./hdfc-removebg-preview.png" alt="HDFC Bank" class="w-32 mb-4" />
+            <div class="flex space-x-4">
+               <img src="https://i.pinimg.com/736x/8c/d9/65/8cd9654787c5ea8eff46e8bdd4be78b4.jpg" alt="Watch 1"
+                  class="h-32">
+               <img src="https://i.pinimg.com/736x/50/59/21/5059210c0d5ff1b3498ee9dd89cb6fb9.jpg" alt="Watch 2"
+                  class="h-32" />
+               <img src="https://i.pinimg.com/736x/bc/37/59/bc3759b40c86d128cabfe2fa06fa9fff.jpg" alt="Watch 3"
+                  class="h-32" />
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+   <div>
+      <div class="px-10 py-34 bg-gray-50">
+         <!-- Section Header -->
+         <div class="flex items-center justify-between mb-8">
+            <div>
+               <p class="text-sm text-orange-600 font-semibold tracking-wider">BEST SELLERS</p>
+               <h2 class="text-3xl font-bold text-gray-900">Explore Customer Favorites<br>in Every Style</h2>
+            </div>
+            <a href="#" class="text-blue-500 hover:underline flex items-center">
+               View All <span class="ml-1">→</span>
+            </a>
+         </div>
+
+         <!-- Products Grid -->
+         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+
+            <!-- Card 1 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+               <img src="./timexnew.png" alt="Timex Watch" class="w-full h-56 object-contain bg-slate-800 p-4 rounded">
+               <div class="flex justify-between items-center mt-4">
+                  <div>
+                     <h3 class="text-sm font-semibold text-gray-800">TIMEX</h3>
+                     <p class="text-xs text-gray-500">Color Options: 3</p>
+                  </div>
+                  <button class="p-2 rounded-full bg-slate-200 hover:bg-slate-300">
+                     ❤️
+                  </button>
+               </div>
+               <div class="flex justify-between items-center mt-4">
+                  <p class="text-gray-900 font-medium">$575.00</p>
+                  <a href="#" class="text-blue-500 hover:underline">Add To Cart</a>
+               </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+               <img src="./titannew.png" alt="Titan Watch" class="w-full h-56 object-contain bg-slate-800 p-4 rounded">
+               <div class="flex justify-between items-center mt-4">
+                  <div>
+                     <h3 class="text-sm font-semibold text-gray-800">TITAN</h3>
+                     <p class="text-xs text-gray-500">Color Options: 3</p>
+                  </div>
+                  <button class="p-2 rounded-full bg-slate-200 hover:bg-slate-300">
+                     ❤️
+                  </button>
+               </div>
+               <div class="flex justify-between items-center mt-4">
+                  <p class="text-gray-900 font-medium">$768.00</p>
+                  <a href="#" class="text-blue-500 hover:underline">Add To Cart</a>
+               </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+               <img src="./fastracknew.png" alt="Captian Watch"
+                  class="w-full h-56 object-contain bg-slate-800 p-4 rounded">
+               <div class="flex justify-between items-center mt-4">
+                  <div>
+                     <h3 class="text-sm font-semibold text-gray-800">FASTRACK</h3>
+                     <p class="text-xs text-gray-500">Color Options: 3</p>
+                  </div>
+                  <button class="p-2 rounded-full bg-slate-200 hover:bg-slate-300">
+                     ❤️
+                  </button>
+               </div>
+               <div class="flex justify-between items-center mt-4">
+                  <p class="text-gray-900 font-medium">$665.00</p>
+                  <a href="#" class="text-blue-500 hover:underline">Add To Cart</a>
+               </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded-lg shadow hover:shadow-lg transition p-4">
+               <img src="./tommynew.png" alt="Dispo Watch" class="w-full h-56 object-contain bg-slate-800 p-4 rounded">
+               <div class="flex justify-between items-center mt-4">
+                  <div>
+                     <h3 class="text-sm font-semibold text-gray-800">TOMMY HILFIGER</h3>
+                     <p class="text-xs text-gray-500">Color Options: 3</p>
+                  </div>
+                  <button class="p-2 rounded-full bg-slate-200 hover:bg-slate-300">
+                     ❤️
+                  </button>
+               </div>
+               <div class="flex justify-between items-center mt-4">
+                  <p class="text-gray-900 font-medium">$865.00</p>
+                  <a href="#" class="text-blue-500 hover:underline">Add To Cart</a>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+   </div>
+
+   <div>
+      <footer class="bg-[#0D1F24] text-white py-10">
+         <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+
+            <!-- Logo & About -->
+            <div>
+               <h1 class="text-2xl font-semibold">Urban<span class="text-gray-200">Hour</span></h1>
+               <p class="text-sm text-gray-400 mt-3">
+                  Discover timeless elegance and unmatched precision at UrbanHour- where every watch tells your story.
+               </p>
+               <div class="flex gap-3 mt-4">
+                  <a href="#" class="bg-[#F3C78E] p-2 rounded-full text-black">
+                     <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="bg-[#F3C78E] p-2 rounded-full text-black">
+                     <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="#" class="bg-[#F3C78E] p-2 rounded-full text-black">
+                     <i class="fab fa-youtube"></i>
+                  </a>
+               </div>
+            </div>
+
+            <!-- Navigation -->
+            <div>
+               <h2 class="text-lg font-medium mb-4">Navigation</h2>
+               <ul class="space-y-2 text-gray-400">
+                  <li><a href="#" class="hover:text-white">Home</a></li>
+                  <li><a href="#about" class="hover:text-white">About Us</a></li>
+                  <li><a href="#service" class="hover:text-white">Our Services</a></li>
+                  <li><a href="#contact" class="hover:text-white">Our Team</a></li>
+               </ul>
+            </div>
+
+            <!-- Services -->
+            <div>
+               <h2 class="text-lg font-medium mb-4">Services</h2>
+               <ul class="space-y-2 text-gray-400">
+                  <li><a href="#" class="hover:text-white">Watch Detailing</a></li>
+                  <li><a href="#" class="hover:text-white">Glass Fitting</a></li>
+                  <li><a href="#" class="hover:text-white">Lens Protection</a></li>
+                  <li><a href="#" class="hover:text-white">Lens Upgrades</a></li>
+               </ul>
+            </div>
+
+            <!-- Contact Us -->
+            <div id="contact">
+               <h2 class="text-lg font-medium mb-4">Contact Us</h2>
+               <p class="text-gray-400 text-sm mb-3">
+                  Our Support and Sales team is available 24/7 to answer your queries
+               </p>
+               <div class="flex items-center gap-2 text-gray-400">
+                  <i class="fas fa-map-marker-alt text-[#F3C78E]"></i>
+                  <span>123 Main St, Suite 500, New York, NY 10001</span>
+               </div>
+               <div class="flex items-center gap-2 mt-2 text-gray-400">
+                  <i class="fas fa-phone-alt text-[#F3C78E]"></i>
+                  <span>+1 (333) 000-0000</span>
+               </div>
+            </div>
+         </div>
+
+         <!-- Bottom line -->
+         <div
+            class="border-t border-gray-600 mt-10 pt-4 flex flex-col md:flex-row justify-between text-sm text-gray-400 px-4 max-w-6xl mx-auto">
+            <p>Copyright © 2023 UrbanHour | Designed by UrbonX</p>
+            <div class="flex gap-4 mt-2 md:mt-0">
+               <a href="#" class="hover:text-white">Terms of Use</a>
+               <a href="#" class="hover:text-white">Privacy Policy</a>
+            </div>
+         </div>
+      </footer>
+
+      <!-- Font Awesome Icons -->
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+   </div>
+
+</body>
+
+</html>
